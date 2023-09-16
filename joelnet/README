@@ -1,0 +1,45 @@
+
+A neural network library built from scratch in Python
+
+learn from https://github.com/joelgrus/joelnet
+
+The essence of neural network is to simulate a function, which is a mapping from input to output. 
+
+for y = f(x) and x = input @ w + b update w and b to minimize the loss function
+besides, update parameters of function f(x) to minimize the loss function
+
++ Tensors
++ Loss Functions
++ Layers
++ Neural Nets
++ Optimizers
++ Data
++ Training
+
+Two examples are provided in the `examples` directory:
++ XOR Example
++ FizzBuzz Example
+
+
+TODO:
++ [ ] add tests
++ [ ] add more loss functions
+  + [ ] cross entropy
++ [ ] add more layers
+  + [ ] dropout
+  + [ ] batch normalization
++ [ ] add more optimizers
+  + [ ] Adam
++ [ ] add more activation functions
+  + [ ] ReLU
++ [ ] add more examples
+  + [ ] 
++ [ ] realize more complex neural network
+  + [ ] CNN
+  + [ ] RNN
+  + [ ] LSTM
+  + [ ] GAN
+  + [ ] Transformer
+  + [ ] BERT
+  + [ ] GPT
+  + [ ] 
